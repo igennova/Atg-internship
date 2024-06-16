@@ -11,7 +11,7 @@ import {data,recommendation_data} from './dumm_data/dummy_data';
 import Form from './components/Form';
 import { useState } from 'react';
 import MobileMenu from './components/MobileMenu';
-function App() {
+const App=()=> {
   const [showSignup,setShowSignUp] = useState(false);
   const [showSignin,setShowSignIn] = useState(false);
   const [isLoggedIn,setLoggedIn] = useState(false);
