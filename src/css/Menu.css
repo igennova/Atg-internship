@@ -1,0 +1,37 @@
+.menu {
+  box-sizing: border-box;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #8a8a8a;
+  border-bottom: 2px solid #e0e0e0;
+  padding-left: 0px;
+  margin-bottom: 30px;
+}
+.menu li {
+  margin-right: 30px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.active {
+  box-sizing: border-box;
+  border-bottom: 3px solid black;
+  color: black;
+  font-weight: 600;
+}
+.last-menu-item {
+  flex-grow: 1;
+}
+.custom-color {
+  background-color: #edeef0 !important;
+}
+.custom-button {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 770px) {
+  .menu {
+    display: none;
+  }
+}

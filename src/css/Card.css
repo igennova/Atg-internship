@@ -1,0 +1,14 @@
+.Card {
+  width: 50vw;
+  max-width: 692px;
+  height: fit-content;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 780px) {
+  .Card {
+    width: 100%;
+  }
+}

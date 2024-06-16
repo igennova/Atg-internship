@@ -1,0 +1,17 @@
+.icon-website {
+  margin-bottom: 3px;
+}
+.icon-website i {
+  font-size: 15px;
+  font-weight: 500;
+}
+.icon-website label {
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "IBM Plex Sans";
+}
+@media only screen and (max-width: 480px) {
+  .icon-text {
+    display: block;
+  }
+}

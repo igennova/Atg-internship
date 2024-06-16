@@ -1,0 +1,17 @@
+.mobile-menu-container {
+  padding: 15px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-menu-container label {
+  font-weight: 600;
+}
+.mobile-menu-container button {
+  font-weight: 600;
+}
+@media only screen and (max-width: 770px) {
+  .mobile-menu-container {
+    display: flex;
+  }
+}

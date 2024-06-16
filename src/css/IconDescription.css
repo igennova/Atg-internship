@@ -1,0 +1,9 @@
+.icon-description-container {
+  display: flex;
+}
+.icon-description-container p {
+  font-size: 12px;
+  margin-left: 16px;
+  font-weight: 400;
+  flex-wrap: wrap;
+}

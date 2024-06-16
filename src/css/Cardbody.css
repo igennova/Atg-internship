@@ -1,0 +1,77 @@
+.Card-body {
+  padding: 30px;
+  font-weight: 500;
+}
+.Card-body h5 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 15px;
+  line-height: 29.5px;
+}
+.Card-body p {
+  color: #5c5c5c;
+  font-weight: 500;
+  font-weight: 19px;
+}
+.dot-menu {
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 2px;
+  color: black;
+}
+.dot-menu:hover {
+  background-color: #bfc0c0;
+}
+.dropdown-toggle::before {
+  display: none !important;
+}
+.custom-dropdown-color {
+  border: none !important;
+}
+.show > .btn-light.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+.dropdown-toggle {
+  background-color: transparent !important;
+}
+.Profile-Container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.views-colors {
+  color: #525252;
+  font-size: 14px;
+}
+.custom-btn-share {
+  border: none;
+  min-width: 42px;
+  min-height: 36px;
+  width: fit-content;
+  border-radius: 2px;
+}
+.share-icon {
+  font-size: 13px;
+}
+.share-button-container {
+  display: block;
+}
+@media only screen and (max-width: 470px) {
+  .share-button-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .share-button-container span {
+    flex-grow: 1 !important;
+  }
+}
